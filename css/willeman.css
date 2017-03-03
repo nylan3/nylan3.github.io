@@ -2,6 +2,34 @@ body {
     background-color: lightpink;
 }
 
-.tabs {
-    
+div.tabs {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1
+}
+
+div.tabs a {
+    float: left;
+    display: block;
+    color: black
+    text-align: center;
+    padding: 14 px 16 px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+ }
+ 
+div.tab a:hover {
+    background-color: #ddd;
+}
+
+div.tab a:focus, .active {
+    backgropund-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6x 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
